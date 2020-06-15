@@ -1,6 +1,7 @@
 import numpy as np
 
 def initialize(dim):
+    """Initialize w and b with zeros"""
     w = np.zeros((dim, 1))
     b = 0
 
