@@ -1,6 +1,7 @@
 from sigmoid import sigmoid
 import numpy as np
 def propagate(w, b, X, Y):
+    """Forward and Backward Propagation"""
     m = X.shape[1]
 
     # FORWARD PROPAGATION
