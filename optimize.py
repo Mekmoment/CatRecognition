@@ -1,6 +1,7 @@
 from propagate import propagate
 
 def optimize(w, b, X, Y, num_iterations, learning_rate, print_cost = False):
+    """Optimize by gradient descent"""
     costs = []
 
     for i in range(num_iterations):
